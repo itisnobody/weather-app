@@ -1,0 +1,43 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  background-color: #F6F6F8;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn {
+  border: none;
+  &--icon {
+    border-radius: 1em;
+    padding: .25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__txt {
+    &--hidden {
+      display: none;
+    }
+  }
+}
+
+.icon {
+  display: inline-block;
+  height: 1.5em;
+  width: 1.5em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  &--home {
+    background-image: url('./img/home.svg');
+  }
+  &--search {
+    background-image: url('./img/search.svg');
+  }
+}

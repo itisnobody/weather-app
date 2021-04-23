@@ -1,0 +1,24 @@
+.main {
+  padding: 1rem;
+  width: 100%;
+  max-width: 520px;
+  background-color: lightskyblue;
+  border-radius: 1rem;
+  text-align: center;
+  &__img {
+    display: block;
+    width: 100%;
+  }
+  &__info {}
+  &__temperature {
+    font-size: 4rem;
+    font-weight: 300;
+
+  }
+  &__temperature-value {}
+  &__temperature-units {  }
+  &__title {
+    font-size: 2.5rem;
+    margin: .5em 0;
+  }
+}

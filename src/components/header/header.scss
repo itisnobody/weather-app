@@ -1,0 +1,23 @@
+.header {
+  background-color: #1177c6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 16px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1020;
+
+  .search-form {
+    margin-left: auto;
+    flex-basis: 400px;
+  }
+
+  &>* {
+    margin-right: 1em;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
